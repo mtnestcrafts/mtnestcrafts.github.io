@@ -109,4 +109,15 @@ footer a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.product-title {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: var(--dark);
+  font-weight: 500;
+}
+.product a:hover img {
+  opacity: 0.9;
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
 
