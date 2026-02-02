@@ -98,4 +98,17 @@ footer a {
   text-decoration: none;
   font-size: 0.9rem;
 }
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
