@@ -120,4 +120,21 @@ footer a {
   transform: scale(1.02);
   transition: 0.3s ease;
 }
+.social-icons {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  color: var(--green);
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: var(--dark);
+  transform: scale(1.1);
+}
 
