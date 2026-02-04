@@ -143,4 +143,16 @@ footer a {
   color: var(--dark);
   transform: scale(1.1);
 }
+.about-image {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
 
