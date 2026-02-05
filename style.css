@@ -163,20 +163,19 @@ footer a {
   max-width: 900px;
 }
 
+/* Desktop layout */
+@media (min-width: 768px) {
+  .about-image-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
+/* Optional: reuse for awards or smaller images */
 .small-photo {
   max-width: 100%;
 }
 
-/* Desktop: images side by side */
-@media (min-width: 768px) {
-  .about-image-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-.awards {
-  text-align: center;
-  margin-top: 3rem;
-}
 
 .award-grid {
   display: grid;
