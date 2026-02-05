@@ -173,4 +173,30 @@ footer a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.awards {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.award-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.award-grid img {
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .award-grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
 
