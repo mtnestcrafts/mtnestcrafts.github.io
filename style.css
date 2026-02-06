@@ -205,4 +205,11 @@ footer a {
   display: inline-block;
   padding-bottom: 0.3rem;
 }
+.about-image {
+  margin: 2.5rem auto;
+}
+
+.text-block {
+  margin-top: 2.5rem;
+}
 
