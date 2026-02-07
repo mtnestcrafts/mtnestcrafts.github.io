@@ -73,6 +73,20 @@ h2 {
   margin: 0 auto 1.5rem auto;
   border-radius: 6px;
 }
+.shop-image {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.shop-image-link {
+  display: block;
+  text-align: center;
+}
 
 
 .shop-link {
