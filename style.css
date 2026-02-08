@@ -190,6 +190,15 @@ footer a {
   border-radius: 10px;
   box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
 }
+/* Smaller supporting images for About page */
+.about-photo-small {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin: 1.5rem auto;
+}
 
 .about-image-grid {
   display: grid;
