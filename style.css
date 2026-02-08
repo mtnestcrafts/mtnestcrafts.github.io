@@ -17,6 +17,10 @@ body {
   color: var(--dark);
   line-height: 1.6;
 }
+.intro {
+  max-width: 700px;
+  margin: 0 auto 2.5rem auto;
+}
 
 header {
   text-align: center;
@@ -52,6 +56,10 @@ h2 {
   display: inline-block;
   padding-bottom: 0.4rem;
 }
+.hero {
+  margin-bottom: 3.5rem;
+}
+
 .products {
   margin-top: 2rem;
 }
@@ -91,8 +99,9 @@ h2 {
 
 .shop-link {
   text-align: center;
-  margin-top: 3rem;
+  margin: 3.5rem 0;
 }
+
 
 .shop-link a {
   background: var(--green);
@@ -102,6 +111,14 @@ h2 {
   border-radius: 6px;
   font-weight: bold;
 }
+.shop-link a {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.shop-link a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
 .shop-image-link:hover .shop-image {
   transform: scale(1.02);
   transition: transform 0.25s ease;
