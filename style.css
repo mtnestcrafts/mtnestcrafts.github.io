@@ -59,6 +59,17 @@ h2 {
 .hero {
   margin-bottom: 3.5rem;
 }
+.brand-name {
+  font-size: 3rem;        /* biggest text */
+  margin-bottom: 0.4rem;
+}
+
+.hero-subtitle {
+  font-size: 1.6rem;      /* smaller than brand */
+  font-weight: normal;
+  color: var(--green);
+  margin-bottom: 1.8rem;
+}
 
 .products {
   margin-top: 2rem;
