@@ -121,11 +121,6 @@ h2 {
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
 
-.shop-image-link {
-  display: block;
-  text-align: center;
-}
-
 
 .shop-link {
   text-align: center;
@@ -293,7 +288,9 @@ footer a {
 .shop-image-link {
   position: relative;
   display: inline-block;
+  text-align: center;
 }
+
 
 .shop-image-link::after {
   content: "View on Etsy →";
