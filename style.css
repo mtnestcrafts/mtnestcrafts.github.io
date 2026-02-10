@@ -236,6 +236,7 @@ footer a {
 }
 
 
+
 /* Desktop layout */
 @media (min-width: 768px) {
   .about-image-grid {
@@ -312,4 +313,24 @@ footer a {
 
 .shop-image-link:hover::after {
   opacity: 1;
+}
+.story-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  justify-items: center;
+  margin: 2rem auto;
+}
+@media (min-width: 768px) {
+  .story-images {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+  }
+}
+.story-images img {
+  transition: transform 0.25s ease;
+}
+
+.story-images img:hover {
+  transform: scale(1.03);
 }
