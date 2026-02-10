@@ -49,6 +49,11 @@ h2 {
   display: inline-block;
   padding-bottom: 0.3rem;
 }
+.center-heading {
+  text-align: center;
+  display: block;
+}
+
 .hero h1 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
