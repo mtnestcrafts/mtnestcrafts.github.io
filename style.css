@@ -331,3 +331,8 @@ footer a {
 .story-images img:hover {
   transform: scale(1.03);
 }
+.story-images img {
+  width: 100%;
+  max-width: 200px;   /* same as awards */
+  height: auto;
+}
