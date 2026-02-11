@@ -183,6 +183,20 @@ header p {
   display: inline-block;
   text-align: center;
 }
+.shop-image-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .shop-image-row {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    margin: 2rem auto;
+  }
+}
 
 .shop-image-link:hover .shop-image {
   transform: scale(1.02);
