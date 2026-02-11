@@ -192,11 +192,17 @@ header p {
 
 @media (min-width: 768px) {
   .shop-image-row {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
     margin: 2rem auto;
   }
+
+  .shop-image-row .shop-image {
+    max-width: 380px;
+  }
 }
+
 
 .shop-image-link:hover .shop-image {
   transform: scale(1.02);
