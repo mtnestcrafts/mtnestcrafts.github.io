@@ -41,19 +41,17 @@ h1, h2, h3 {
   margin-top: 0;
 }
 
+/* FIXED: removed inline-block so centering works */
 h2 {
   font-size: 1.8rem;
   border-bottom: 2px solid var(--green);
-  display: inline-block;
   padding-bottom: 0.3rem;
+  text-align: center;
 }
 
-/* UNIVERSAL CENTRE CLASS */
+/* Simple universal centre class */
 .centre-heading {
   text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 1.5rem;
 }
 
@@ -89,7 +87,6 @@ header p {
   font-size: 2.2rem;
   margin-bottom: 1rem;
   border-bottom: 3px solid var(--green);
-  display: inline-block;
   padding-bottom: 0.4rem;
 }
 
@@ -304,3 +301,4 @@ footer a {
   text-decoration: none;
   font-size: 0.9rem;
 }
+
