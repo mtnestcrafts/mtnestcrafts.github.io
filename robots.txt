@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.mtnestcrafts.co.uk/sitemap.xml
