@@ -329,13 +329,16 @@ footer a {
 .vine-divider-bottom {
   text-align: center;
   margin: 1.5rem 0;
-  opacity: 0.20; /* makes it subtle */
+  opacity: 0.15; /* makes it subtle */
 }
 
 .vine-divider-top img,
 .vine-divider-bottom img {
-  width: 100%;
-  max-width: 900px;
+  display: block;
+  width: 80%;
+  max-width: 850px;
   height: auto;
+  margin: 0 auto;
 }
+
 
