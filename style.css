@@ -321,4 +321,21 @@ footer a {
   text-decoration: none;
   font-size: 0.9rem;
 }
+/* ============================= */
+/* VINE DIVIDER */
+/* ============================= */
+
+.vine-divider-top,
+.vine-divider-bottom {
+  text-align: center;
+  margin: 1.5rem 0;
+  opacity: 0.20; /* makes it subtle */
+}
+
+.vine-divider-top img,
+.vine-divider-bottom img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
 
