@@ -359,4 +359,30 @@ footer a {
 .shop-link a:hover {
   color: var(--dark);
 }
+/* ============================= */
+/* ECO BUTTON */
+/* ============================= */
 
+.shop-link {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.eco-button {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  background-color: var(--green);
+  color: white;
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.eco-button:hover {
+  background-color: var(--dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
