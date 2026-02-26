@@ -340,5 +340,23 @@ footer a {
   height: auto;
   margin: 0 auto;
 }
+/* ============================= */
+/* HOME SHOP LINK */
+/* ============================= */
 
+.shop-link {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.shop-link a {
+  font-size: 1.2rem;
+  color: var(--green);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.shop-link a:hover {
+  color: var(--dark);
+}
 
