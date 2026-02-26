@@ -45,7 +45,7 @@ h1, h2, h3 {
 h2 {
   font-size: 1.8rem;
   border-bottom: 2px solid var(--green);
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.5rem;
   text-align: center;
 }
 
@@ -328,7 +328,7 @@ footer a {
 .vine-divider-top,
 .vine-divider-bottom {
   text-align: center;
-  margin: 0.8rem 0;
+  margin: 0.6rem 0;
   opacity: 0.15;
 }
 
@@ -341,7 +341,7 @@ footer a {
   margin: 0 auto;
 }
 main .hero {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 /* ============================= */
 /* HOME SHOP LINK */
