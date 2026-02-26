@@ -61,7 +61,7 @@ h2 {
 
 header {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem 1rem 1rem;
 }
 
 header h1 {
@@ -328,8 +328,8 @@ footer a {
 .vine-divider-top,
 .vine-divider-bottom {
   text-align: center;
-  margin: 1.5rem 0;
-  opacity: 0.15; /* makes it subtle */
+  margin: 0.8rem 0;
+  opacity: 0.15;
 }
 
 .vine-divider-top img,
@@ -339,6 +339,9 @@ footer a {
   max-width: 850px;
   height: auto;
   margin: 0 auto;
+}
+main .hero {
+  margin-top: 1.5rem;
 }
 /* ============================= */
 /* HOME SHOP LINK */
@@ -363,10 +366,7 @@ footer a {
 /* ECO BUTTON */
 /* ============================= */
 
-.shop-link {
-  text-align: center;
-  margin: 3rem 0;
-}
+
 
 .eco-button {
   display: inline-block;
